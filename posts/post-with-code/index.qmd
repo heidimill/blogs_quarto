@@ -1,9 +1,40 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
+title: "Why Rows and Columns Make Me Happy (And Why They Should Matter to You, Too)"
+author: "Heidi Mill"
 date: "2026-02-18"
-categories: [news, code, analysis]
+categories: [data, analysis]
 image: "image.jpg"
 ---
 
-This is a post with executable code.
+It’s honestly so interesting to me how much more data exists in the world right now than we really even understand. I’ll just come out and say it: I love data. I love knowing what things mean, and I love all that jazz. There is something so satisfying about seeing rows and rows and columns and columns just full of stuff that actually means something. Honestly? Tables make me happy.
+
+Ever since I was young, I’ve had this drive to track my own info, but in recent years, I’ve really taken to tracking my music. It actually started because I was suspicious of the shuffle button. I felt like every single time I shuffled my playlist, it would play the same twenty songs on loop while other songs just sat there, never getting played. So, I decided to test it. I would shuffle the playlist, record the first 20 songs, and then after a ton of iterations, I could see exactly how many songs had been played, how many times they popped up, and which ones were being totally ignored.
+
+I’ll be real with you, I never actually "finished" that experiment in the sense that I didn't wait until every single song was played at least once. New music was coming out, and my taste was changing way too fast to stay stuck in that one spreadsheet forever! But it taught me something important: data doesn't have to be boring. It's just a way to prove what you're feeling.
+
+Another thing I find particularly interesting about data is how it can be totally concrete while also being completely subjective to personal opinion. For my recent big project, I listed out a bunch of songs and then scored them in 12 different categories that actually mattered to me. I rated things like overall enjoyment, the "turn-it-up factor," replay desire, live anticipation, and the sing-a-long urge. I even tracked nostalgia, my "gut like," and even a "gut dislike" category (which acted as a negative scale).
+
+I created both raw and weighted scores because, let’s be real, not every category holds the same importance in my listening experience. Sometimes a song has high nostalgia but low replay desire, and the weights help balance that out. I’m so happy I was able to do it because the results feel so right.
+
+But here’s the thing: My music rankings are perfectly accurate for me. They tell a story about my taste, my preferences, and my biases. Someone else using my exact framework would generate completely different results. And that’s okay. Because data is always tied to context.
+
+It took me about six months to finish this for around 300 songs because I insisted on listening to each song as I scored it. I wanted to make sure they were as accurate as they could possibly be. I consistently had fun with it, and I even made a little box plot with the high and low rankings per album, and genuinely, that really appealed to my nerdy heart.
+
+To me, data isn’t actually messy in itself. When I look at a massive table, it makes perfect sense to me. I see the patterns and the logic immediately. But I also understand that it doesn’t look that way to others, and that’s why I love what I do. I am happy to take that information and make it understandable for everyone else. My job is to help that data "dress up" into something pretty that is actually meaningful to you.
+
+But before data can “dress up,” it has to exist in the first place.
+
+At its most basic level, data is just a recorded observation. A number. A timestamp. A yes or a no. A click. A stream. A purchase. A skipped song. What’s really changed in recent years isn’t necessarily what data is, it’s how much of it we generate and how effortlessly it’s collected. Every time we open Spotify, tap a credit card, or check our watch for our heart rate, something is recorded. We are constantly producing those rows and columns of information without even realizing it.
+
+Not that long ago, collecting data was a huge, intentional chore. Someone had to design a survey and hand-enter numbers. Now, businesses no longer ask, “Should we collect data?” They ask, “How on earth do we manage the overwhelming amount of data we already have?”
+
+That’s where data science becomes so powerful. Raw data on its own is like my giant spreadsheet of 300 songs before I started scoring them. It’s information, sure, but it isn’t insight. The magic happens when you start asking the questions: What patterns exist here? What is overrepresented? What actually matters?
+When you scale that up, that’s exactly what businesses are trying to do every day. Companies don’t just want dashboards; they want clarity. They want to know why customers behave the way they do. Data at its base level is neutral. It doesn’t argue, and it definitely doesn’t explain itself.
+
+That’s our job.
+
+I’ve always loved when something abstract becomes measurable. My music rankings are a perfect example. They aren't "universal truths". They are just my reality reflected in numbers. In today’s world, data is infrastructure. It’s embedded into healthcare, streaming platforms, sports, and everything in between. The organizations that succeed aren’t the ones with the most data; they’re the ones that understand it best.
+
+At its core, data is just recorded reality. And I think that’s kind of beautiful. Because when you care enough to track something, whether it’s global sales metrics or just the first 20 songs from a shuffled playlist, you’re saying, “This matters.”
+
+As a data scientist, my job isn’t just to look at numbers. It’s to respect where they came from, clean them carefully, and then translate them into something useful. I still get excited about tables and box plots. I still love rows and columns that mean something. But what I love most is taking a world full of 'stuff' and proving that none of it is actually random, and then making sure it finally makes sense to someone who doesn’t spend their life in a spreadsheet.

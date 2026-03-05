@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Tristan O’Malley">
-<meta name="dcterms.date" content="2026-02-15">
+<meta name="author" content="Heidi Mill">
+<meta name="dcterms.date" content="2026-02-04">
 
-<title>Welcome To My Blog – Heidi’s Blog</title>
+<title>How Working With Live Data Changed My Approach to Analytic – Heidi’s Blog</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -120,9 +120,9 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Welcome To My Blog</h1>
+      <h1 class="title">How Working With Live Data Changed My Approach to Analytic</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">news</div>
+                <div class="quarto-category">Analytical Thinking</div>
               </div>
                   </div>
   </div>
@@ -133,14 +133,14 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Tristan O’Malley </p>
+               <p>Heidi Mill </p>
             </div>
     </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 15, 2026</p>
+        <p class="date">February 4, 2026</p>
       </div>
     </div>
     
@@ -159,9 +159,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+<p>Working on projects for class is usually very straightforward. The end goal, scope, and even the data itself are clearly defined from the start. You’re typically given a dataset along with specific instructions—use these columns, apply these methods, and answer these questions. Expectations are clear, the professor guides you through the process, and the timeline is short, often just a week or two, with relatively low expectations for hours spent.</p>
+<p>Working with data in a professional setting is very different. Real-world data work is far more ambiguous, open-ended, and unclear in both scope and delivery timelines. In my job, the data I work with comes from a live connection to the source. This means I constantly have to consider how often the data changes and how those changes affect how I clean, transform, and analyze it.</p>
+<p>Some of the data I work with is mostly static. When it updates, it simply adds a new row of information, allowing me to look back at previous values and easily perform week-over-week comparisons. However, other datasets can be completely overwritten depending on the circumstances. This means the data I see on Monday may not be the same data I see on Friday, with no built-in way to view what the data looked like earlier in the week.</p>
+<p>Despite this limitation, the management team I report to still expects week-over-week comparisons and, by the end of the year, a clear picture of how the data changed over time. This creates a challenge: if I waited until December 31 to generate a yearly report, I wouldn’t be able to show trends between busy and slow seasons because past versions of the data would no longer exist. Since this historical perspective is essential for decision-making, I had to think carefully about how to “freeze” or archive the data without compromising its integrity.</p>
+<p>Another important consideration is ensuring that I am querying the live data source correctly. Because dashboards and visuals automatically update when the data refreshes, I need to verify that they are displaying the correct statistics and time periods. A small mistake in a query can lead to misleading visuals, which can quickly become a larger issue when shared with management.</p>
+<p>The key takeaway is that working with static, never-changing datasets is very different from working with constantly changing data while still needing accurate time-based comparisons. To handle this, I’ve created weekly routines in both Power BI and Excel. In Excel, I use macros to ensure that the same steps are followed every time. One of these steps involves what I call “freezing” the data—copying the current values and pasting them into a new sheet, or saving end-of-week data in a designated comparison area. I save each weekly report with the current date, while maintaining a separate working file for daily updates and refreshes.</p>
+<p>Power BI works a bit differently. I export specific tables into designated files, which are then consolidated to support week-over-week comparisons for live data. Each row of data is tagged with the date it first existed, ensuring that comparisons always reflect the most recent and accurate information.</p>
+<p>Through this process, I can confidently answer questions about the current data landscape while also preserving historical data. This allows me to show management exactly what the data looked like at any given point in time—and know precisely where to find it.</p>
 
 
 

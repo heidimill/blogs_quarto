@@ -1,7 +1,7 @@
 ---
 title: "Test Marimo Post"
 description: ""
-author: "J. Hathaway"
+author: "Heidi Mill"
 date: "2026-02-18"
 categories: []
 draft: False
